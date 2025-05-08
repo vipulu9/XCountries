@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+  overflow-y: scroll;
+  max-height: 80vh; /* Adjust as needed */
+  padding: 20px;
+}
+
+.country-item {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.country-item img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
